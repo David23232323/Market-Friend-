@@ -1,7 +1,7 @@
 Read me: Market Friend
 
 Decription: 3 main features:
-1. Analytics: a stock screener that returns stocks matching user desired parameters by filtering through all exisitng stocks.
+1. Analytics: a stock screener that returns stocks matching user desired parameters by filtering through all exisiting stocks.
 Click on any of the returned stocks to see more information including a news briefing. 
 2. Comparables: Find similar stocks to the user input stock by looping through all possible stocks and computing a similarity index.
  Also finds a target price by using regression from SK learn on the similar stocks.
