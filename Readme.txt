@@ -11,7 +11,8 @@ How to run:
 Go into main.py and execute it as a script. 
 Users will need to pip install: requests, json, sk learn, numpy, and iex finance
 
-side note: execute data.py to update information, don't have to do this every time as things stored in StockData.txt mostly change only quarterly (takes around 2 hours to update)
+Side note: execute data.py to update information, don't have to do this every time as things stored in StockData.txt 
+mostly change only quarterly (takes around 2 hours to update)
 
 Shortcuts:
 Press enter to search stocks instead of using the button. Use arrow keys to flip around returned stocks in analytics. 
