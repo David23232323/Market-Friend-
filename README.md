@@ -1,2 +1,0 @@
-# Market-Friend-
-Stock Project 
