@@ -20,7 +20,9 @@ def predict(data): #sk learn regression
     reg = sk.linear_model.LinearRegression().fit(X, y)
     subject = getSubject(data, index) 
     predictValue = reg.predict(np.array([subject]))
-    data.predictedDifference = predictValue[0] - data.selectedInfo[1]
+    stockName = 0 
+    stockPrice = 1 
+    data.predictedDifference = predictValue[stockName] - data.selectedInfo[stockPrice] 
     if data.predictedDifference < 0:
         data.loss = True 
         data.predictedValue = data.selectedInfo[1] - \
